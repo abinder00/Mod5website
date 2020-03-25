@@ -1,0 +1,83 @@
+* {box-sizing: border-box;}
+body {background-color: black;
+      color: black;
+	 font-family: Tahoma, Geneva, sans-serif;
+	 }
+header {background-color: #6c0d0f;
+        background-image: url(rvbannerlogo.jpg);
+        background-repeat: no-repeat;
+        height: 150px;
+        width:100%;
+        margin-bottom: 0px;
+}
+
+h1{ text-indent: 100%;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+}
+h2{ color: #6c0d0f;}
+
+nav {background-color: #6c0d0f;
+     text-align: center;
+     font-weight: bold;
+     padding: 8px;
+}
+
+nav a{text-decoration: none;
+      padding: 20px;
+	  }
+
+nav a:link {color: #ffffff;}
+nav a:visited {color: #a39991;}
+nav a:hover {color: #955445;
+}
+
+#wrapper {margin-right: auto;
+          margin-left: auto;
+          width: 80%;
+		 }
+main {background-color: #ffffff;
+	 color: #000000;
+	 padding: 20px 20px;
+     overflow: auto;
+	 }
+.div1 {width: 30%;
+        height:200px;
+        background-color: #6c0d0f;
+        padding: 20px;
+        margin: 10px;}
+
+blockquote {text-align: center;
+            font-style: italic;
+            color: #955445;}
+
+ul {list-style-type: none;}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+footer {background-color: #6c0d0f;
+        font-size: .60em;
+        font-style: italic;
+        text-align: center;}
+
+#navfooter {display:contents;
+            text-align: center;
+            padding: 0px;}    
+      
+      
+
+
+
+
+
+
+
