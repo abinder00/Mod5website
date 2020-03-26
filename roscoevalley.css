@@ -10,14 +10,14 @@ header {background-color: #6c0d0f;
         width:100%;
         margin-bottom: 0px;
 }
-
 h1{ text-indent: 100%;
     color: #ffffff;
     white-space: nowrap;
     overflow: hidden;
 }
 h2{ color: #6c0d0f;
-    font-size: 2em;}
+    font-size: 2em;
+}
 h4 {color: #6c0d0f;
     font-size: 1.4em;
 	padding-left:   .5em;
@@ -28,16 +28,13 @@ nav {background-color: #6c0d0f;
      font-weight: bold;
      padding: 8px;
 }
-
 nav a{text-decoration: none;
       padding: 20px;
 	  }
-
 nav a:link {color: #ffffff;}
 nav a:visited {color: #a39991;}
 nav a:hover {color: #955445;
 }
-
 #wrapper {margin-right: auto;
           margin-left: auto;
           width: 80%;
@@ -47,28 +44,21 @@ main {background-color: #ffffff;
 	 padding: 20px 20px;
      overflow: auto;
 	 }
-.div1 {width: 30%;
-        height:200px;
-        background-color: #6c0d0f;
-        padding: 20px;
-        margin: 10px;}
-
 .attributes ul {list-style-type:disc;
     margin-top: 0;
 }
                 
 blockquote {text-align: center;
             font-style: italic;
-            color: #955445;}
-
+            color: #955445;
+}
 ul {list-style-type: none;}
-
 a {text-decoration: none;}
-
 footer {background-color: #6c0d0f;
         font-size: .60em;
         font-style: italic;
-        text-align: center;}
+        text-align: center;
+}
 main {padding-bottom: 2em;
       padding-left: 2em;
       padding-right: 2em;
@@ -82,23 +72,14 @@ img {padding-left: 0px;
 #sire {max-width: 80%;
         height: auto;
 }
-
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box;}
 .column {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
- 
 @media only screen and (max-width: 768px) {
     h2 {font-size: 2em;
         text-align: center;
@@ -111,6 +92,12 @@ img {padding-left: 0px;
            border-bottom: 1px solid #FEF6C2;}
     main {padding-top: 1px;}
     #image {display:none;}
+    .column {float: none;
+             width:100%;
+             height: auto;
+    }
+}
+    
     
     
 
