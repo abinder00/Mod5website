@@ -4,7 +4,7 @@ body {background-color: black;
 	 font-family: Tahoma, Geneva, sans-serif;
 	 }
 header {background-color: #6c0d0f;
-        background-image: url(rvbannerlogo.jpg);
+        background-image: url(rvbannerlogo2.jpg);
         background-repeat: no-repeat;
         height: 150px;
         width:100%;
@@ -16,7 +16,12 @@ h1{ text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
 }
-h2{ color: #6c0d0f;}
+h2{ color: #6c0d0f;
+    font-size: 2em;}
+h4 {color: #6c0d0f;
+    font-size: 1.4em;
+	padding-left:   .5em;
+    }
 
 nav {background-color: #6c0d0f;
      text-align: center;
@@ -48,33 +53,66 @@ main {background-color: #ffffff;
         padding: 20px;
         margin: 10px;}
 
+.attributes ul {list-style-type:disc;
+    margin-top: 0;
+}
+                
 blockquote {text-align: center;
             font-style: italic;
             color: #955445;}
 
 ul {list-style-type: none;}
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
+a {text-decoration: none;}
 
 footer {background-color: #6c0d0f;
         font-size: .60em;
         font-style: italic;
         text-align: center;}
+main {padding-bottom: 2em;
+      padding-left: 2em;
+      padding-right: 2em;
+}
+img {padding-left: 0px;
+       padding-right: 0px;
+}
+#image {margin-left: 10px;
+        float: right;}
 
-#navfooter {display:contents;
-            text-align: center;
-            padding: 0px;}    
-      
-      
+#sire {max-width: 80%;
+        height: auto;
+}
 
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+@media only screen and (max-width: 768px) {
+    h2 {font-size: 2em;
+        text-align: center;
+        margin: 20px;
+        }
+    nav {margin: 0;}
+    nav a {display: block;
+           padding: 0.2em;
+           width: auto;
+           border-bottom: 1px solid #FEF6C2;}
+    main {padding-top: 1px;}
+    #image {display:none;}
+    
+    
 
 
 
